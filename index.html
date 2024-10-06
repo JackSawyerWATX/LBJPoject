@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyndon B. Johnson</title>
+</head>
+
+<body>
+    <main>
+        <h1>Lyndon B. Johnson</h1>
+        <section>
+            <h2>Lyndon Photos</h2>
+            <!-- TODO: Add link to LBJ Wiki articls -->
+            <p>See more <a target="_blank" href="https://en.wikipedia.org/wiki/Lyndon_B._Johnson">Lyndon B. Johnson</a>
+                on his Wikipedia page.</p>
+            <a href="attributes\LyndonJohnson.jpg">
+                <img src="attributes\LyndonJohnson.jpg" alt="Official Persidential White House photo"></a>
+        </section>
+        <section>
+            <h2>LBJ Lists</h2>
+            <h3>Things Lyndon loves:</h3>
+            <ul>
+                <li>Civil Rights</li>
+                <li>Cussing</li>
+                <li>Talking Down to People</li>
+            </ul>
+            <figure>
+                <img src="attributes\LyndonJohnsonAndRichardRussell.jpg"
+                    alt="President Johnson and Senator Richard Russell">
+                <figcaption>Lyndon <em>loves</em> berating people!</figcaption>
+            </figure>
+            <h3>Top 3 things Lyndon hates:</h3>
+            <ol>
+                <li>Rasing Taxes</li>
+                <li>Racism</li>
+                <li>Communism</li>
+            </ol>
+            <figure>
+                <img src="attributes\JohnsonVIisitsUsSoldiers.jpg" alt="Johnson visits US Soldiers in Viet Nam">
+                <figcaption>Lyndon <strong>supports</strong> Air Force troops.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Johnson Form</h2>
+            <form action="attributes/LyndonJohnson1972.jpg">
+                <fieldset>
+                    <legend>What is your opinion of President Johnson?</legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>
+                        Favorable</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Unfavorable</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Undecided</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your favorite Johnson era?</legend>
+                    <input id="senator" type="checkbox" name="era" value="senator" checked> <label
+                        for="senator">Senator</label>
+                    <input id="vp" type="checkbox" name="era" value="vp"> <label for="vp">Vice President</label>
+                    <input id="president" type="checkbox" name="era" value="president"> <label
+                        for="president">President</label>
+                    <input id="postpresident" type="checkbox" name="era" value="postpresident"> <label
+                        for="postpresident">Post-President</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Photos of Lyndon B. Johnson</legend>
+                    <input type="text" name="johnsonpics" placeholder="LBJ photo URL" required>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            No Copyright - <a href="https://www.jonathanfausset.com">jonathanfausset.com</a>
+        </p>
+    </footer>
+</body>
+
+</html>
